@@ -16,12 +16,13 @@ body{
 	font-weight:900;
 }
 nav{
-	    display: flex;
+	display: flex;
     width: 100vw;
     text-transform: uppercase;
     height: 60px;
     align-items: center;
 	color:white;
+	cursor:pointer;
 }
 .left{
 	display: flex;
@@ -68,7 +69,8 @@ a{
 	padding-top: 50px;
 }
 i{
-	font-size: 30px
+	font-size: 30px;
+	cursor:pointer;
 }
 .footer{
 	height: 13vw;
